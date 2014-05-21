@@ -4,13 +4,13 @@ Miu
 「ねぇ、新吾くん。蛇口が壊れた水道って、どうなるか知ってる？」
 
 
-# Dependencies
+## Dependencies
 
 * libzmq
 * libboost_program_options
 
 
-# Installation
+## Installation
 
 ```bash
 git clone git@github.com:yuijo/miu-core.git
@@ -23,19 +23,19 @@ make install
 ```
 
 
-# Example
+## Example
 
-## miu-hub
+### miu-hub
 ```bash
 miu hub -F tcp://127.0.0.1:22200 -B tcp://127.0.0.1:22201
 ```
 
-## miu-cat
+### miu-cat
 ```bash
 echo -n "hello miu" | miu cat -a tcp://127.0.0.1:22200 -t miu.cat -i 1
 ```
 
-## miu-tail
+### miu-tail
 ```bash
 miu tail -a tcp://127.0.0.1:22201
 ```
