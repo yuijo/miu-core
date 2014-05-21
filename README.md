@@ -7,6 +7,7 @@ Miu
 ## Dependencies
 
 * libzmq
+* libmsgpack
 * libboost_program_options
 
 
